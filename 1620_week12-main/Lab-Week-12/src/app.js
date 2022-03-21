@@ -1,4 +1,5 @@
-function myFunction(divOne){
-    return divOne
+function myFunction(){
+    const selectedelement = document.querySelector(".one")
+    return selectedelement
 }
-console.log(divOne)
+console.log(myFunction())
