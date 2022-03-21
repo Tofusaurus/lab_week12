@@ -8,10 +8,11 @@ console.log(myFunction())
 //Part 3
 
 
+
 //Part 4
-function makeDarkMode(){
-    const DM = document.querySelector('div')
-    DM.classList.add('dark-theme')
+function makeIncognito(){
+    const DarkMode = document.querySelector('div')
+    DarkMode.classList.add('dark-theme')
 }
-console.log(makeDarkMode())
+console.log(makeIncognito())
 
